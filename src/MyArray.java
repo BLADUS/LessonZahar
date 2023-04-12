@@ -74,7 +74,7 @@ public class MyArray {
         System.out.println("Индекс максимального элемента: " + ((array.length) - 1));
     }
 
-    
+
     public static void counterNumberInArray(MyArray myArray) {
         int counter = 0;
         int index = 0;
@@ -100,5 +100,9 @@ public class MyArray {
 
     public void setArray(double[] array) {
         this.array = array;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
